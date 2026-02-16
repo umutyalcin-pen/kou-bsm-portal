@@ -6,15 +6,12 @@
 ## BSM Bölümü ile alakalı gereken her site, link ve hoca bilgisine tek tıkla ulaşabilirsiniz
 
 <p align="center">
-    <img src="lume python version window main dark en.png" alt="1" width="300" style="margin-right: 10px;"/> 
-    <img src="lume python version main theme light en.png" alt="2" width="300"/>
-    <img src="lume python version window main light en.png" alt="3" width="300"/>
-    <img src="selected and listed light theme.png" alt="4" width="300"/>
-    <img src="listed folders month.png" alt="5" width="300"/>
-    <img src="listed screenshots.png" alt="1" width="300" style="margin-right: 10px;"/> 
-    <img src="bar app icon.png" alt="2" width="300"/>
-    <img src="lume go version logo.png" alt="2" width="300"/>
-     <img src="lume cli version powershell.png" alt="2" width="300"/>
+    <img src="arama barı.png" alt="1" width="300" style="margin-right: 10px;"/> 
+    <img src="beyaz tema eklenti arayüzü-duyurular.png" alt="2" width="300"/>
+    <img src="beyaz tema eklenti arayüzü-erişim.png" alt="3" width="300"/>
+    <img src="beyaz tema eklenti arayüzü-kadro.png" alt="4" width="300"/>
+    <img src="eklenti görüntüsü.png" alt="5" width="300"/>
+    <img src="siyah tema eklenti arayüzü-duyurular.png" alt="1" width="300" style="margin-right: 10px;"/> 
 </p>
 
 --- 
