@@ -90,3 +90,19 @@ Serbest:
 </p>
 
 ---
+⚠️ Feragatname (Disclaimer)
+
+Türkçe (Turkish)
+Bu yazılım Kocaeli Üniversitesi'nin resmi bir uygulaması veya iştiraki değildir.
+
+Eklenti içerisinde sunulan veriler (Duyurular, akademik bilgiler vb.) üniversitenin halka açık web servislerinden ve web sitesinden anlık olarak çekilmektedir.
+Verilerin güncelliği ve doğruluğu konusunda eklenti geliştiricisi hiçbir garanti vermez.
+Bu eklentinin kullanımından doğabilecek herhangi bir veri kaybı, yanlış bilgilendirme veya teknik sorundan kaynaklanan sorumluluk tamamen kullanıcıya aittir.
+
+
+English (İngilizce)
+This software is not an official application or affiliate of Kocaeli University.
+
+The data provided within the extension (Announcements, academic information, etc.) is fetched in real-time from the university's public web services and website.
+The developer of the extension provides no guarantee regarding the currency and accuracy of the data.
+Any responsibility arising from data loss, misinformation, or technical issues resulting from the use of this extension belongs entirely to the user.
