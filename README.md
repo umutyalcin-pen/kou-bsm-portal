@@ -46,6 +46,7 @@ BSM Portal allows you to access all necessary academic links and faculty informa
 ---
 
 🛠️ Kurulum / Installation
+
 1- Bu depoyu ZIP olarak indirin veya git clone ile bilgisayarınıza çekin.
 
 2- Chrome tarayıcınızda chrome://extensions/ adresine gidin.
