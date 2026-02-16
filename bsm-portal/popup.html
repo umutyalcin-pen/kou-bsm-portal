@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOÜ BSM Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-left">
+                <div class="logo-mark">BSM</div>
+                <div class="header-text">
+                    <h1>KOÜ BSM Portal</h1>
+                    <p>Bilişim Sistemleri Mühendisliği</p>
+                </div>
+            </div>
+            <button id="theme-toggle" class="theme-btn" title="Tema Değiştir">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+
+        <nav class="tab-nav">
+            <button class="tab-btn active" data-tab="links"><i class="fas fa-bolt"></i><span>Erişim</span></button>
+            <button class="tab-btn" data-tab="staff"><i class="fas fa-users"></i><span>Kadro</span></button>
+            <button class="tab-btn" data-tab="announcements"><i
+                    class="fas fa-bullhorn"></i><span>Duyurular</span></button>
+        </nav>
+
+        <main class="tab-contents">
+            <section id="tab-links" class="tab-panel active">
+                <div class="links-grid">
+                    <a href="https://ogr.kocaeli.edu.tr/koubs/ogrenci/index.cfm" class="link-card" data-color="blue">
+                        <div class="link-icon"><i class="fas fa-graduation-cap"></i></div><span>OBS</span>
+                    </a>
+                    <a href="https://www.kocaeli.edu.tr" class="link-card" data-color="purple">
+                        <div class="link-icon"><i class="fas fa-university"></i></div><span>KOÜ</span>
+                    </a>
+                    <a href="https://bilisim.kocaeli.edu.tr" class="link-card" data-color="teal">
+                        <div class="link-icon"><i class="fas fa-building-columns"></i></div><span>Bölüm</span>
+                    </a>
+                    <a href="https://bilisim.kocaeli.edu.tr/tr/duyurular" class="link-card" data-color="orange">
+                        <div class="link-icon"><i class="fas fa-bell"></i></div><span>Duyurular</span>
+                    </a>
+                    <a href="https://sksdb.kocaeli.edu.tr/yemek_listesi.php" class="link-card" data-color="red">
+                        <div class="link-icon"><i class="fas fa-masks-theater"></i></div><span>Kültür</span>
+                    </a>
+                    <a href="https://odb.kocaeli.edu.tr/sayfalar/akademik-takvim-974" class="link-card"
+                        data-color="green">
+                        <div class="link-icon"><i class="fas fa-calendar-days"></i></div><span>Takvim</span>
+                    </a>
+                    <!-- NOT: Telegram grubu davet linkidir. Paylaşırken dikkatli olunmalıdır. -->
+                    <a href="https://t.me/+Yn2O7kVpPN40ZDA0" class="link-card" data-color="telegram">
+                        <div class="link-icon"><i class="fab fa-telegram"></i></div>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="http://kutuphane.kocaeli.edu.tr" class="link-card" data-color="indigo">
+                        <div class="link-icon"><i class="fas fa-book"></i></div><span>Kütüphane</span>
+                    </a>
+                    <a href="https://mail.google.com" class="link-card" data-color="sky">
+                        <div class="link-icon"><i class="fas fa-envelope"></i></div><span>E-posta</span>
+                    </a>
+                    <a href="https://www.linkedin.com/school/kocaeli-university/posts/?feedView=all" class="link-card"
+                        data-color="linkedin">
+                        <div class="link-icon"><i class="fab fa-linkedin"></i></div><span>KOÜ L-In</span>
+                    </a>
+                    <a href="https://www.youtube.com/@kou92official" class="link-card" data-color="youtube">
+                        <div class="link-icon"><i class="fab fa-youtube"></i></div><span>KOÜ YT</span>
+                    </a>
+                    <a href="https://www.youtube.com/@koubilisim/videos" class="link-card" data-color="youtube">
+                        <div class="link-icon"><i class="fab fa-youtube"></i></div><span>BSM YT</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="tab-staff" class="tab-panel">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="staff-search" placeholder="Hoca veya ders ara...">
+                </div>
+                <div id="staff-container" class="staff-container"></div>
+            </section>
+
+            <section id="tab-announcements" class="tab-panel">
+                <div id="announcements-container" class="announcements-container">
+                    <div class="loading-state">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Duyurular yükleniyor...</span>
+                    </div>
+                </div>
+                <button id="refresh-btn" class="refresh-btn" title="Duyuruları Yenile">
+                    <i class="fas fa-sync-alt"></i> Yenile
+                </button>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <span>KOÜ BSM Portal v1.0.0</span>
+                <a href="https://github.com/umutyalcin-pen" class="profile-link" title="Geliştirici Profili">
+                    <i class="fas fa-user-circle"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
