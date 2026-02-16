@@ -45,7 +45,6 @@ body {
     transition: background var(--transition), color var(--transition);
 }
 
-/* Scrollbar Customization */
 ::-webkit-scrollbar {
     width: 4px;
 }
@@ -63,7 +62,6 @@ body {
     background: var(--text-secondary);
 }
 
-/* Header & Header Components */
 .header {
     display: flex;
     align-items: center;
@@ -123,7 +121,6 @@ body {
     color: white;
 }
 
-/* Tab Navigation */
 .tab-nav {
     display: flex;
     background: var(--surface);
@@ -173,7 +170,6 @@ body {
     right: 15%;
 }
 
-/* Tab Contents */
 .tab-contents {
     padding: 14px;
 }
@@ -192,14 +188,12 @@ body {
         opacity: 0;
         transform: translateY(5px);
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-/* Grid */
 .links-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -244,7 +238,6 @@ body {
     transform: scale(1.1);
 }
 
-/* Link Colors */
 .link-card[data-color="blue"] .link-icon {
     background: rgba(59, 130, 246, 0.12);
     color: #3b82f6;
@@ -300,7 +293,6 @@ body {
     color: #FF0000;
 }
 
-/* Staff UI */
 .search-box {
     position: relative;
     margin-bottom: 12px;
@@ -392,7 +384,6 @@ body {
     color: var(--accent);
 }
 
-/* Category Tags */
 .category-label {
     font-size: 0.65rem;
     font-weight: 700;
@@ -407,7 +398,6 @@ body {
     gap: 8px;
 }
 
-/* Announcements UI */
 .announcements-container {
     max-height: 420px;
     overflow-y: auto;
@@ -452,7 +442,6 @@ body {
     gap: 6px;
 }
 
-/* Interaction Details */
 .copy-btn {
     width: 24px;
     height: 24px;
@@ -501,7 +490,6 @@ body {
     border-color: var(--accent);
 }
 
-/* Footer */
 .footer {
     border-top: 1px solid var(--border);
     background: var(--surface);
