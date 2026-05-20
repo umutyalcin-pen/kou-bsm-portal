@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOÜ BSM Portal</title>
+    <link rel="stylesheet" href="vendor/inter/inter.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-left">
+                <div class="logo-mark">BSM</div>
+                <div class="header-text">
+                    <h1>KOÜ BSM Portal</h1>
+                    <p>Bilişim Sistemleri Mühendisliği</p>
+                </div>
+            </div>
+            <button id="theme-toggle" class="theme-btn" title="Tema Değiştir" type="button">
+                <i class="fas fa-sun" aria-hidden="true"></i>
+            </button>
+        </header>
+
+        <nav class="tab-nav">
+            <button class="tab-btn active" data-tab="links" type="button"><i class="fas fa-paperclip" aria-hidden="true"></i><span>Erişim</span></button>
+            <button class="tab-btn" data-tab="staff" type="button"><i class="fas fa-users" aria-hidden="true"></i><span>Kadro</span></button>
+            <button class="tab-btn" data-tab="announcements" type="button"><i class="fas fa-bullhorn" aria-hidden="true"></i><span>Duyurular</span></button>
+            <button class="tab-btn" data-tab="dining" type="button"><i class="fas fa-utensils" aria-hidden="true"></i><span>Yemekhane</span></button>
+            <button class="tab-btn" data-tab="schedule" type="button"><i class="fas fa-calendar-alt" aria-hidden="true"></i><span>Program</span></button>
+        </nav>
+
+        <main class="tab-contents">
+            <section id="tab-links" class="tab-panel active">
+                <div class="links-grid">
+                    <a href="https://ogr.kocaeli.edu.tr/koubs/ogrenci/index.cfm" target="_blank" rel="noopener noreferrer" class="link-card" data-color="blue">
+                        <div class="link-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div><span>OBS</span>
+                    </a>
+                    <a href="https://www.kocaeli.edu.tr" target="_blank" rel="noopener noreferrer" class="link-card" data-color="purple">
+                        <div class="link-icon"><i class="fas fa-university" aria-hidden="true"></i></div><span>KOÜ</span>
+                    </a>
+                    <a href="https://bilisim.kocaeli.edu.tr" target="_blank" rel="noopener noreferrer" class="link-card" data-color="teal">
+                        <div class="link-icon"><i class="fas fa-building-columns" aria-hidden="true"></i></div><span>Bölüm</span>
+                    </a>
+                    <a href="https://bilisim.kocaeli.edu.tr/tr/duyurular" target="_blank" rel="noopener noreferrer" class="link-card" data-color="orange">
+                        <div class="link-icon"><i class="fas fa-bell" aria-hidden="true"></i></div><span>Duyurular</span>
+                    </a>
+                    <a href="https://sksdb.kocaeli.edu.tr" target="_blank" rel="noopener noreferrer" class="link-card" data-color="red">
+                        <div class="link-icon"><i class="fas fa-dumbbell" aria-hidden="true"></i></div><span>Spor</span>
+                    </a>
+                    <a href="https://odb.kocaeli.edu.tr/sayfalar/akademik-takvim-974" target="_blank" rel="noopener noreferrer" class="link-card" data-color="green">
+                        <div class="link-icon"><i class="fas fa-calendar-days" aria-hidden="true"></i></div><span>Takvim</span>
+                    </a>
+                    <a href="https://t.me/+Yn2O7kVpPN40ZDA0" target="_blank" rel="noopener noreferrer" class="link-card" data-color="telegram">
+                        <div class="link-icon"><i class="fab fa-telegram" aria-hidden="true"></i></div><span>Telegram</span>
+                    </a>
+                    <a href="https://kutuphane.kocaeli.edu.tr" target="_blank" rel="noopener noreferrer" class="link-card" data-color="indigo">
+                        <div class="link-icon"><i class="fas fa-book" aria-hidden="true"></i></div><span>Kütüphane</span>
+                    </a>
+                    <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer" class="link-card" data-color="sky">
+                        <div class="link-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div><span>E-posta</span>
+                    </a>
+                    <a href="https://www.linkedin.com/school/kocaeli-university/posts/?feedView=all" target="_blank" rel="noopener noreferrer" class="link-card" data-color="linkedin">
+                        <div class="link-icon"><i class="fab fa-linkedin" aria-hidden="true"></i></div><span>KOÜ L-In</span>
+                    </a>
+                    <a href="https://www.instagram.com/kou92official/" target="_blank" rel="noopener noreferrer" class="link-card" data-color="instagram">
+                        <div class="link-icon"><i class="fab fa-instagram" aria-hidden="true"></i></div><span>KOÜ IG</span>
+                    </a>
+                    <a href="https://bilisim.kocaeli.edu.tr/tr/etkinlikler" target="_blank" rel="noopener noreferrer" class="link-card" data-color="pink">
+                        <div class="link-icon"><i class="fas fa-calendar-check" aria-hidden="true"></i></div><span>KOÜ Event</span>
+                    </a>
+                    <a href="https://x.com/kou92official" target="_blank" rel="noopener noreferrer" class="link-card" data-color="x-twitter">
+                        <div class="link-icon"><i class="fab fa-x-twitter" aria-hidden="true"></i></div><span>KOÜ X</span>
+                    </a>
+                    <a href="https://www.youtube.com/@kou92official" target="_blank" rel="noopener noreferrer" class="link-card" data-color="youtube">
+                        <div class="link-icon"><i class="fab fa-youtube" aria-hidden="true"></i></div><span>KOÜ YT</span>
+                    </a>
+                    <a href="https://www.youtube.com/@koubilisim/videos" target="_blank" rel="noopener noreferrer" class="link-card" data-color="youtube">
+                        <div class="link-icon"><i class="fab fa-youtube" aria-hidden="true"></i></div><span>BSM YT</span>
+                    </a>
+                    <a href="https://www.youtube.com/@koubilisim" target="_blank" rel="noopener noreferrer" class="link-card" data-color="youtube">
+                        <div class="link-icon"><i class="fab fa-youtube" aria-hidden="true"></i></div><span>BSM Fizik</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="tab-staff" class="tab-panel">
+                <div class="search-box">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input type="text" id="staff-search" placeholder="Hoca veya ders ara...">
+                </div>
+                <div id="staff-container" class="staff-container"></div>
+            </section>
+
+            <section id="tab-announcements" class="tab-panel">
+                <div id="announcements-container" class="announcements-container">
+                    <div class="loading-state">
+                        <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        <span>Duyurular yükleniyor...</span>
+                    </div>
+                </div>
+                <button id="refresh-btn" class="refresh-btn" title="Duyuruları Yenile" type="button">
+                    <i class="fas fa-sync-alt" aria-hidden="true"></i>
+                    <span>Yenile</span>
+                </button>
+            </section>
+
+            <section id="tab-dining" class="tab-panel">
+                <div class="dining-header">
+                    <button id="dining-prev" class="dining-nav-btn" title="Önceki Gün" type="button">
+                        <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+                    <span id="dining-date-label" class="dining-date-label">Yükleniyor...</span>
+                    <button id="dining-next" class="dining-nav-btn" title="Sonraki Gün" type="button">
+                        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div id="dining-card" class="dining-card">
+                    <div class="dining-item">
+                        <span class="dining-item-type"><i class="fas fa-bowl-rice" aria-hidden="true"></i> Çorba</span>
+                        <span id="food-soup" class="dining-item-name">-</span>
+                    </div>
+                    <div class="dining-item">
+                        <span class="dining-item-type"><i class="fas fa-bowl-food" aria-hidden="true"></i> Ana Yemek</span>
+                        <span id="food-main" class="dining-item-name">-</span>
+                    </div>
+                    <div class="dining-item">
+                        <span class="dining-item-type"><i class="fas fa-plate-wheat" aria-hidden="true"></i> Yardımcı Yemek</span>
+                        <span id="food-side" class="dining-item-name">-</span>
+                    </div>
+                    <div class="dining-item">
+                        <span class="dining-item-type"><i class="fas fa-ice-cream" aria-hidden="true"></i> Tatlı / Meyve</span>
+                        <span id="food-dessert" class="dining-item-name">-</span>
+                    </div>
+                    <div class="dining-footer">
+                        <div class="dining-meta">
+                            <span class="dining-meta-label"><i class="fas fa-fire" aria-hidden="true"></i> Toplam Kalori</span>
+                            <span id="food-calories" class="dining-meta-val">-</span>
+                        </div>
+                        <div class="dining-meta">
+                            <span class="dining-meta-label"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Yemekhane</span>
+                            <span class="dining-meta-val dining-meta-val--muted">Kardelen S.T.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tab-schedule" class="tab-panel">
+                <div class="schedule-day-nav">
+                    <button class="schedule-day-btn active" data-day="pazartesi" type="button">Pzt</button>
+                    <button class="schedule-day-btn" data-day="sali" type="button">Sal</button>
+                    <button class="schedule-day-btn" data-day="carsamba" type="button">Çar</button>
+                    <button class="schedule-day-btn" data-day="persembe" type="button">Per</button>
+                    <button class="schedule-day-btn" data-day="cuma" type="button">Cum</button>
+                </div>
+                <div id="schedule-list" class="schedule-list"></div>
+                <div id="schedule-form" class="schedule-form d-none">
+                    <input type="text" id="schedule-name" placeholder="Ders adı (örn: Fizik II)" class="schedule-input">
+                    <div class="schedule-form-row">
+                        <input type="text" id="schedule-time" placeholder="Saat (09:00)" class="schedule-input schedule-input--sm">
+                        <input type="text" id="schedule-room" placeholder="Derslik (1040)" class="schedule-input schedule-input--sm">
+                    </div>
+                    <input type="text" id="schedule-instructor" placeholder="Öğretim Üyesi (opsiyonel)" class="schedule-input">
+                    <div class="schedule-form-actions">
+                        <button id="schedule-save" class="schedule-btn schedule-btn--save" type="button"><i class="fas fa-check" aria-hidden="true"></i> Kaydet</button>
+                        <button id="schedule-cancel" class="schedule-btn schedule-btn--cancel" type="button">İptal</button>
+                    </div>
+                </div>
+                <button id="schedule-add" class="schedule-add-btn" type="button"><i class="fas fa-plus" aria-hidden="true"></i> Ders Ekle</button>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <span>KOÜ BSM Portal v1.0.0</span>
+                <a href="https://github.com/umutyalcin-pen" target="_blank" rel="noopener noreferrer" class="profile-link" title="Geliştirici Profili">
+                    <i class="fas fa-user-circle" aria-hidden="true"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+{
+  "emailDomain": "kocaeli.edu.tr",
+  "categories": [
+    { "key": "yonetim", "label": "Bölüm Yönetimi", "icon": "crown" },
+    { "key": "profesor", "label": "Profesörler", "icon": "user" },
+    { "key": "docent", "label": "Doçentler", "icon": "user" },
+    { "key": "drogr", "label": "Dr. Öğretim Üyeleri", "icon": "graduate" },
+    { "key": "ogrgor", "label": "Öğretim Görevlileri", "icon": "teacher" },
+    { "key": "arsgor", "label": "Araştırma Görevlileri", "icon": "user" },
+    { "key": "servis", "label": "Servis Dersleri (UE/Ortak)", "icon": "book" },
+    { "key": "idari", "label": "İdari Kadro", "icon": "badge" }
+  ],
+  "staff": [
+    {
+      "name": "Prof. Dr. Halil Yiğit",
+      "emailPrefix": "halilyigit",
+      "title": "Bölüm Başkanı",
+      "course": "TBL222: Adli Bilişim (1041) / TBL436: Kablosuz Ağ Tekn.",
+      "category": "yonetim"
+    },
+    {
+      "name": "Prof. Dr. Hikmet Hakan Gürel",
+      "emailPrefix": "hhakan.gurel",
+      "title": "Profesör",
+      "course": "Fizik II / Yönetim Bilişim Sistemleri",
+      "category": "profesor"
+    },
+    {
+      "name": "Prof. Dr. Mehmet Yıldırım",
+      "emailPrefix": "myildirim",
+      "title": "Profesör",
+      "course": "TBL306: Bilgisayar Ağları (1036) / TBL424: Yapay Zeka",
+      "category": "profesor"
+    },
+    {
+      "name": "Prof. Dr. Süleyman Eken",
+      "emailPrefix": "suleyman.eken",
+      "title": "Profesör",
+      "course": "TBL220: Python (1044) / TBL426: Görüntü İşleme",
+      "category": "profesor"
+    },
+    {
+      "name": "Prof. Dr. Zeynep Hilal Kilimci",
+      "emailPrefix": "zeynep.kilimci",
+      "title": "Profesör",
+      "course": "TBL322: Makine Öğrenmesi (1036) / TBL451: Staj II",
+      "category": "profesor"
+    },
+    {
+      "name": "Prof. Dr. Çiğdem Gündüz Aras",
+      "emailPrefix": "caras",
+      "title": "Profesör",
+      "course": "Matematik II",
+      "category": "profesor"
+    },
+    {
+      "name": "Prof. Dr. Abdülkadir Aygünoğlu",
+      "emailPrefix": "aaygunoglu",
+      "title": "Profesör",
+      "course": "Lineer Cebir",
+      "category": "profesor"
+    },
+    {
+      "name": "Doç. Dr. Mustafa Hikmet Bilgehan Uçar",
+      "emailPrefix": "mhbucar",
+      "title": "Doçent",
+      "course": "TBL204: Mantık Devreleri (1044) / TBL318: Haberleşme",
+      "category": "docent"
+    },
+    {
+      "name": "Doç. Dr. Serdar Solak",
+      "emailPrefix": "serdars",
+      "title": "Doçent",
+      "course": "TBL224: Veri Yapıları ve Algoritmalar (1044)",
+      "category": "docent"
+    },
+    {
+      "name": "Doç. Dr. Adnan Sondaş",
+      "emailPrefix": "asondas",
+      "title": "Doçent",
+      "course": "TBL202: Sayısal Analiz (Lab)",
+      "category": "docent"
+    },
+    {
+      "name": "Doç. Dr. Faruk Selahattin Yolcu",
+      "emailPrefix": "fsyolcu",
+      "title": "Doçent",
+      "course": "Kariyer Planlama",
+      "category": "docent"
+    },
+    {
+      "name": "Dr. Öğr. Üyesi Önder Yakut",
+      "emailPrefix": "onder.yakut",
+      "title": "Dr. Öğretim Üyesi",
+      "course": "TBL304: Web Programlama (1036) / TBL334: Bulut Bilişim",
+      "category": "drogr"
+    },
+    {
+      "name": "Dr. Öğr. Üyesi Samet Diri",
+      "emailPrefix": "samet.diri",
+      "title": "Dr. Öğretim Üyesi",
+      "course": "TBL206: Veritabanı YBS / TBL324: İleri Java",
+      "category": "drogr"
+    },
+    {
+      "name": "Dr. Öğr. Üyesi Seda Balta Kaç",
+      "emailPrefix": "seda.balta",
+      "title": "Dr. Öğretim Üyesi",
+      "course": "TBL302: İşletim Sistemleri (1036)",
+      "category": "drogr"
+    },
+    {
+      "name": "Dr. Öğr. Üyesi Faruk Aktaş",
+      "emailPrefix": "faruk.aktas",
+      "title": "Dr. Öğretim Üyesi",
+      "course": "TBL428: Gömülü Sistem Tasarımı (Z031)",
+      "category": "drogr"
+    },
+    {
+      "name": "Öğr. Gör. Alper Metin",
+      "emailPrefix": "alperm",
+      "title": "Öğretim Görevlisi",
+      "course": "TBL208: Teknik İng. / TBL308: Bil. Güvenliği / TBL320: E-Devlet",
+      "category": "ogrgor"
+    },
+    {
+      "name": "Öğr. Gör. Yavuz Selim Fatihoğlu",
+      "emailPrefix": "yselim",
+      "title": "Öğretim Görevlisi",
+      "course": "TBL214: Görsel Prog. / TBL422: Oyun Prog. / Algoritma II",
+      "category": "ogrgor"
+    },
+    {
+      "name": "Öğr. Gör. Dr. Adem Gültürk",
+      "emailPrefix": "adem.gulturk",
+      "title": "Öğretim Görevlisi",
+      "course": "TBL460: BSM Özel Konular (1044)",
+      "category": "ogrgor"
+    },
+    {
+      "name": "Öğr. Gör. Asiye Yüksel",
+      "emailPrefix": "asiye.yuksel",
+      "title": "Öğretim Görevlisi",
+      "course": "TBL450: Proje Yönetimi (1036)",
+      "category": "ogrgor"
+    },
+    {
+      "name": "Öğr. Gör. Dr. Kerem Çolak",
+      "emailPrefix": "kerem.colak",
+      "title": "Öğretim Görevlisi",
+      "course": "TKN406: Girişimcilik (1041)",
+      "category": "ogrgor"
+    },
+    {
+      "name": "Öğr. Gör. İsmail Hakkı Paslı",
+      "emailPrefix": "ihpasli",
+      "title": "Öğretim Görevlisi (UE)",
+      "course": "İngilizce II",
+      "category": "servis"
+    },
+    {
+      "name": "Öğr. Gör. Özgür Uçum",
+      "emailPrefix": "ozgur.ucum",
+      "title": "Öğretim Görevlisi (UE)",
+      "course": "Türk Dili II",
+      "category": "servis"
+    },
+    {
+      "name": "Öğr. Gör. Bilgin Ayhan",
+      "emailPrefix": "bilgin.ayhan",
+      "title": "Öğretim Görevlisi (UE)",
+      "course": "Atatürk İlkeleri ve İnkilap Tarihi II",
+      "category": "servis"
+    },
+    {
+      "name": "Arş. Gör. Muhammet Mücahit Enes Yurtsever",
+      "emailPrefix": "enes.yurtsever",
+      "title": "Araştırma Görevlisi",
+      "course": "Bölüm Asistanı",
+      "category": "arsgor"
+    },
+    {
+      "name": "Arş. Gör. Ahmet Ekiz",
+      "emailPrefix": "ahmet.ekiz",
+      "title": "Araştırma Görevlisi",
+      "course": "Bölüm Asistanı",
+      "category": "arsgor"
+    },
+    {
+      "name": "Arş. Gör. Furkan Berk Seyrek",
+      "emailPrefix": "berk.seyrek",
+      "title": "Araştırma Görevlisi",
+      "course": "Bölüm Asistanı",
+      "category": "arsgor"
+    },
+    {
+      "name": "Emrah Özlü",
+      "emailPrefix": "emrah.ozlu",
+      "title": "Bölüm Sekreteri",
+      "course": "İdari İşler / Bölüm Sekreterliği",
+      "category": "idari"
+    }
+  ]
+}
