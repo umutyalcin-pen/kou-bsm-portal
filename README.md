@@ -7,13 +7,13 @@ Kocaeli Üniversitesi Bilişim Sistemleri Mühendisliği Portalı
 BSM Bölümü ile alakalı gereken her site, link ve hoca bilgisine tek tıkla ulaşabilirsiniz.
 
 <p align="center">
-    <img src="screenshots/arama_bari.png" alt="Arama Barı" width="300" style="margin-right: 10px;"/> 
-    <img src="screenshots/duyurular.png" alt="Duyurular" width="300"/>
-    <img src="screenshots/hizli_erisim.png" alt="Hızlı Erişim" width="300"/>
-    <img src="screenshots/akademik_kadro.png" alt="Akademik Kadro" width="300"/>
-    <img src="screenshots/ders_programi.png" alt="Ders Programı" width="300"/>
-    <img src="screenshots/dapooksosuave.png" alt="Eklenti Görünümü" width="300"/>
-    <img src="screenshots/sosuave.png" alt="Eklenti Görünümü Alternatif" width="300"/>
+    <img src="frontend/screenshots/arama_bari.png" alt="Arama Barı" width="300" style="margin-right: 10px;"/> 
+    <img src="frontend/screenshots/duyurular.png" alt="Duyurular" width="300"/>
+    <img src="frontend/screenshots/hizli_erisim.png" alt="Hızlı Erişim" width="300"/>
+    <img src="frontend/screenshots/akademik_kadro.png" alt="Akademik Kadro" width="300"/>
+    <img src="frontend/screenshots/ders_programi.png" alt="Ders Programı" width="300"/>
+    <img src="frontend/screenshots/dapooksosuave.png" alt="Eklenti Görünümü" width="300"/>
+    <img src="frontend/screenshots/sosuave.png" alt="Eklenti Görünümü Alternatif" width="300"/>
 </p>
 
 --- 
