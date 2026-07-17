@@ -105,12 +105,14 @@ Bu bir öğrenci projesidir. Hata raporları veya yeni özellik önerileri için
 *   Bu yazılım Kocaeli Üniversitesi'nin resmi bir uygulaması veya iştiraki değildir.
 *   Eklenti içerisinde sunulan veriler (Duyurular, akademik bilgiler vb.) üniversitenin halka açık web servislerinden ve web sitesinden anlık olarak çekilmektedir. Verilerin güncelliği ve doğruluğu konusunda eklenti geliştiricisi hiçbir garanti vermez.
 *   **Kişisel Verilerin Korunması (KVKK):** Eklenti içerisinde yer alan akademisyen bilgileri (ad, unvan, ders bilgisi, e-posta), Kocaeli Üniversitesi resmi web sitesinde kamuya açık olarak yayınlanan rehberden derlenmiştir. Eklentinin tek amacı öğrencilerin ders hocalarına hızlı erişimini kolaylaştırmaktır. Bilgilerinin eklentiden kaldırılmasını talep eden akademisyenlerimiz geliştirici ile (GitHub veya e-posta yoluyla) iletişime geçtiği takdirde ilgili veriler derhal kaldırılacaktır.
+*   Akademik kadro verileri Kocaeli Üniversitesi'nin kamuya açık resmi web sitesi/rehberi üzerinden derlenmiştir. Veri dosyasının son güncelleme tarihi: Haziran 2026.
 *   Bu eklentinin kullanımından doğabilecek herhangi bir veri kaybı, yanlış bilgilendirme veya teknik sorundan kaynaklanan sorumluluk tamamen kullanıcıya aittir.
 
 ### English
 *   This software is not an official application or affiliate of Kocaeli University.
 *   The data provided within the extension (Announcements, academic information, etc.) is fetched in real-time from the university's public web services and website. The developer of the extension provides no guarantee regarding the currency and accuracy of the data.
 *   **Personal Data Protection (GDPR/KVKK):** The academic staff information (name, title, courses, email prefix) included in the extension is compiled from Kocaeli University's publicly available official directory. The sole purpose of the extension is to facilitate students' quick access to faculty members. Faculty members who request their information to be removed can contact the developer (via GitHub or email), and their data will be removed immediately.
+*   Academic staff data is compiled from Kocaeli University's publicly available official website/directory. Last data file update: June 2026.
 *   Any responsibility arising from data loss, misinformation, or technical issues resulting from the use of this extension belongs entirely to the user.
 
 ---
